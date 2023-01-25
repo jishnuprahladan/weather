@@ -1,0 +1,28 @@
+.image1{
+background-image: url("./src/bg3.jpg");
+ background-size: cover;
+      min-height: 100vh;
+}
+.l1{
+    font-size:80px;
+}
+@media screen and (max-width: 992px) {
+    .image1 {
+        background-image: url("./src/bg4.webp");
+        background-size: cover;
+        min-height: 100vh;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .image1 {
+        background-image: url("./src/bg2.jpg");
+      background-size: cover;
+      min-height: 100vh;
+    }
+    .l1{
+        font-size: 50px;
+    }
+  }
+
+
